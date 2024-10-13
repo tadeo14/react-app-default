@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Admin } from '../componentes/Admin';
+import { Admin } from '../pages/Admin';
 
 export const AppRouter = () => {
   return (
