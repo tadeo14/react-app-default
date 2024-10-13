@@ -1,13 +1,13 @@
-import React from 'react'
-import { BrowserRouter, Route, Router } from 'react-router-dom'
-import { Admin } from './componentes/Admin'
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Admin } from '../componentes/Admin';
 
-export const Approuter = () => {
+export const AppRouter = () => {
   return (
-      <BrowserRouter>
-          <Router>
-        <Route path="/admin" exact component={Admin} />
-          </Router>
-      </BrowserRouter>
-  )
-}
+    <BrowserRouter>
+      <Routes>
+        <Route path="/admin" element={<Admin />} />
+      </Routes>
+    </BrowserRouter>
+  );
+};
