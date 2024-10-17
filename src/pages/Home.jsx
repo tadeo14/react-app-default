@@ -1,9 +1,12 @@
 import React from 'react'
 
 
-export const Admin = () => {
+
+export const Home = () => {
   return (
     <>
+      
+     
     </>
     
     
