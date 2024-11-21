@@ -18,6 +18,7 @@ const Login = () => {
     // Aquí puedes agregar la lógica de autenticación
     console.log("Email:", email);
     console.log("Password:", password);
+  
     setErrorMessage(""); // Limpiar el mensaje de error si todo está bien
   };
 
